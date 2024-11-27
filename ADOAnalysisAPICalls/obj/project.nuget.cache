@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "NEZ5Bx5rgfCzjNABRO6adSiHIW9NK3bv2nKxTvuo7WqKpNYNAAn4rwW6Eh7rT+a9T4zhrKfI+C+jJmb7McLGcg==",
+  "success": true,
+  "projectFilePath": "/Users/anthonius/former_life/ADOAnalysisAPICalls/ADOAnalysisAPICalls/ADOAnalysisAPICalls.csproj",
+  "expectedPackageFiles": [
+    "/Users/anthonius/.nuget/packages/microsoft.netcore.app.ref/6.0.24/microsoft.netcore.app.ref.6.0.24.nupkg.sha512",
+    "/Users/anthonius/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.24/microsoft.aspnetcore.app.ref.6.0.24.nupkg.sha512",
+    "/Users/anthonius/.nuget/packages/microsoft.netcore.app.host.osx-arm64/6.0.24/microsoft.netcore.app.host.osx-arm64.6.0.24.nupkg.sha512"
+  ],
+  "logs": []
+}
