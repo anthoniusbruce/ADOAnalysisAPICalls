@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/anthonius/former_life/ADOAnalysisAPICalls/ADOAnalysisAPICalls/ADOAnalysisAPICalls.csproj",
+      "projectUniqueName": "/Users/anthonius/dev/csharp/ADOAnalysisAPICalls/ADOAnalysisAPICalls/ADOAnalysisAPICalls.csproj",
       "projectName": "ADOAnalysisAPICalls",
-      "projectPath": "/Users/anthonius/former_life/ADOAnalysisAPICalls/ADOAnalysisAPICalls/ADOAnalysisAPICalls.csproj",
+      "projectPath": "/Users/anthonius/dev/csharp/ADOAnalysisAPICalls/ADOAnalysisAPICalls/ADOAnalysisAPICalls.csproj",
       "packagesPath": "/Users/anthonius/.nuget/packages/",
-      "outputPath": "/Users/anthonius/former_life/ADOAnalysisAPICalls/ADOAnalysisAPICalls/obj/",
+      "outputPath": "/Users/anthonius/dev/csharp/ADOAnalysisAPICalls/ADOAnalysisAPICalls/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/anthonius/.nuget/NuGet/NuGet.Config"

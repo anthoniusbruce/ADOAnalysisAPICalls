@@ -6,7 +6,6 @@ namespace ADOAnalysisAPICalls
 {
     public class AdoAnalysisClient : IAdoAnalysisClient
     {
-        private const string Token = "";
         private const string AdoAnalysisBaseAddress = "https://analytics.dev.azure.com/tr-tax/TaxProf/_odata/v4.0-preview/";
         private const string CycleTimeScatterPlotParameters = "WorkItems?%24select=ActivatedDate%2C+CompletedDate%2C+WorkItemId&%24filter=%28WorkItemType+eq+%27{0}%27%29+and+StateCategory+eq+%27Completed%27+and+CompletedDateSK+ge+{1}+and+startswith%28Area%2FAreaPath%2C%27{2}%27%29";
         private const string UserStoryThroughputParameters = "WorkItems?%24apply=filter%28%28WorkItemType+eq+%27User+Story%27+or+WorkItemType+eq+%27Bug%27%29+and+StateCategory+eq+%27Completed%27+and+CompletedDateSK+ge+{0}+and+Teams%2Fany%28t%3At%2FTeamName+eq+%27{1}%27%29%29+%2Fgroupby%28%28CompletedDateSK%29%2Caggregate%28%24count+as+Throughput%29%29";
@@ -79,7 +78,7 @@ namespace ADOAnalysisAPICalls
 
             httpClient.DefaultRequestHeaders.Add("Accept", "application/json");
             httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Basic",
-                Convert.ToBase64String(System.Text.ASCIIEncoding.ASCII.GetBytes(string.Format("{0}:{1}", "", Token))));
+                Convert.ToBase64String(System.Text.ASCIIEncoding.ASCII.GetBytes(string.Format("{0}:{1}", "", ""))));
             return httpClient;
         }
     }
