@@ -6,14 +6,14 @@ using ADOAnalysisAPICalls;
 var client = new AdoAnalysisClient();
 var oneMonthAgo = DateTime.Now.AddMonths(-1);
 var oneYearAgo = DateTime.Now.AddYears(-1);
-var arAreaPath = "TaxProf/aafm/ar";
-var arTeam = "ar-onvio";
-var brTeam = "br-onvio-platform-tech1";
+var arAreaPath = "<complete area path>";
+var team1 = "<team 1>";
+var team2 = "<team 2";
 
 var usCtTask = client.GetUserStoryCycleTimeScatterPlotData(oneMonthAgo, arAreaPath);
 var fCtTask = client.GetFeatureCycleTimeScatterPlotData(oneYearAgo, arAreaPath);
-var usTpTask = client.GetUserStoryThroughputData(oneMonthAgo, brTeam);
-var fTpTask = client.GetFeatureThroughputData(oneYearAgo, arTeam);
+var usTpTask = client.GetUserStoryThroughputData(oneMonthAgo, team2);
+var fTpTask = client.GetFeatureThroughputData(oneYearAgo, team1);
 
 //usCtTask.Wait();
 //fCtTask.Wait();
